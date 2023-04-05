@@ -1,0 +1,26 @@
+$linkHeight: 100px;
+
+.single-link {
+  width: 100px;
+  height: $linkHeight;
+
+  display: inline-flex;
+
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+p {
+  margin: auto;
+}
+
+.addLink-btn {
+  color: transparent;
+  background-color: transparent;
+  height: $linkHeight;
+  justify-content: center;
+}
+
+.main-div {
+  display: flex;
+}
