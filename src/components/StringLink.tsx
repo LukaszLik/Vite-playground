@@ -1,5 +1,5 @@
-import {TextField} from "@mui/material";
-import React, {useEffect} from "react";
+import { TextField } from "@mui/material";
+import React, { useEffect } from "react";
 import "./StringLink.scss";
 
 export default function StringLink() {
@@ -22,7 +22,7 @@ export default function StringLink() {
                 <TextField
                   className="input"
                   id={idx.toString()}
-                  placeholder={list[idx]}
+                  value={list[idx]}
                   size="small"
                   variant="standard"
                   onChange={updateList}
@@ -46,12 +46,11 @@ export default function StringLink() {
                 <TextField
                   className="input"
                   id={idx.toString()}
-                  placeholder={list[idx]}
+                  value={list[idx]}
                   size="small"
                   variant="standard"
                   onChange={updateList}
                 />
-                {/*<p>{str}</p>*/}
               </div>
             </>
           );
